@@ -1,5 +1,5 @@
 #include "main.h"
-void printstring (char *s)
+void printstring(char *s)
 {
 	while (*s)
 	{
@@ -44,11 +44,5 @@ int _printf(const char *format, ...)
 		format++;
 	}
 	va_end(args);
-	return 0;
-}
-
-int main(void)
-{
-	printf("mordecai %c %%", 'p');
 	return 0;
 }
